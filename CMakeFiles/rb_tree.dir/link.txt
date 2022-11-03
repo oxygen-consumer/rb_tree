@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/rb_tree.dir/main.c.o CMakeFiles/rb_tree.dir/tree.c.o -o rb_tree 
