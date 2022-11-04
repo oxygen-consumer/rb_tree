@@ -152,6 +152,12 @@ void print_tree(struct t_node *current) {
 }
 
 bool tree_search(struct t_node *current, int key) {
+  if (current == NULL) {
+    // We shouldn't get here
+    printf("Tree is empty\n");
+    return false;
+  }
+
   if (current->key == key) {
     return true;
   }
@@ -163,4 +169,21 @@ bool tree_search(struct t_node *current, int key) {
   } else {
     return false;
   }
+}
+
+void free_tree(struct t_node *current) {
+  if (current == NULL) {
+    // We shouldn't get here
+    printf("Tree is empty");
+    return;
+  }
+
+  if (current->left != NULL) {
+    free_tree(current->left);
+  }
+  if (current->right != NULL) {
+    free_tree(current->right);
+  }
+
+  free(current);
 }

@@ -27,4 +27,6 @@ void print_tree(struct t_node *current);
 
 bool tree_search(struct t_node *current, int key);
 
+void free_tree(struct t_node *current);
+
 #endif // TREE_H_

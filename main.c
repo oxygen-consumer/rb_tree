@@ -36,5 +36,6 @@ int main() {
     printf("Key not found\n");
   }
 
+  free_tree(tree->root);
   return 0;
 }

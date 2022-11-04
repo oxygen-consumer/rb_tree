@@ -4,6 +4,7 @@
 CMakeFiles/rb_tree.dir/main.c.o: main.c \
   /usr/include/stdc-predef.h \
   tree.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdbool.h \
   /usr/include/stdio.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -60,6 +61,7 @@ CMakeFiles/rb_tree.dir/main.c.o: main.c \
 CMakeFiles/rb_tree.dir/tree.c.o: tree.c \
   /usr/include/stdc-predef.h \
   tree.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdbool.h \
   /usr/include/stdio.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -150,21 +152,13 @@ tree.c:
 
 /usr/include/bits/waitstatus.h:
 
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/waitflags.h:
+
 /usr/include/bits/long-double.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/gnu/stubs-64.h:
 
 /usr/include/features.h:
 
@@ -174,17 +168,33 @@ tree.c:
 
 /usr/include/bits/libc-header-start.h:
 
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/gnu/stubs-64.h:
+
 /usr/include/stdio.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h:
 
 /usr/include/gnu/stubs.h:
 
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/stdio_lim.h:
+
 tree.h:
 
 /usr/include/bits/types/time_t.h:
 
 /usr/include/stdlib.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdbool.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h:
 
@@ -219,9 +229,3 @@ main.c:
 /usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/floatn-common.h:
-
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/include/bits/endian.h:
-
-/usr/include/bits/waitflags.h:
