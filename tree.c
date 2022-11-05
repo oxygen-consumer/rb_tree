@@ -28,6 +28,10 @@ void tree_insert(struct t_tree *tree, struct t_node *node) {
       }
       current = current->right;
     }
+
+    else {
+      break;
+    }
   }
 
   node->parent = current;
